@@ -1,106 +1,45 @@
-@font-face{
-  font-family: sans-serif;
-  font-weight: 200;
-  font-display: fallback;
-
+.App {
+  text-align: center;
 }
 
-html{
-  scroll-behavior: smooth;
-
-}
-/*Animation*/
-.fade-in-section{
-  opacity: 0;
-  transform: translateY(10vh);
-  visibility: hidden;
-  transition: opacity 0.8s ease-out, transform 1s ease-out;
-  will-change: opacity, visibility;
-
-}
-.fade-in-section.is-visibile{
-  opacity: 1;
-  transform: none;
-  visibility: visible
-}
-.App{
-  background-color: #082032;
-  display: flex;
-  flex-direction: row;
-
-}
-.App-logo{
+.App-logo {
   height: 40vmin;
   pointer-events: none;
-  
 }
-#content{
-  width: 100vw;
-  overflow-x: hidden;
-  overflow-y: hidden;
 
-}
-.rs-steps-horizontal .rs-steps-item-content{
-  text-align: left;
-
-}
-::selection{
-  background-color: #CD5C5C;
-
-}
-@media (prefers-reduced-motion:no-preferance){
-  .App-logo{
-    animation: App-logo-spin infinite 15s linear;
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
   }
 }
 
-.App-header{
+.App{
+  background-color: #082032;
+}
+
+.App-header {
+  background-color: #414957;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  font-size: calc(10px+2vmin);
-
-}
-.section-header{
-  display: flex;
-  padding-bottom: 42px;
-  width: 100vw;
-}
-.section-header::after{
-  content: "";
-  display: block;
-  width: 300px;
-  margin-top: 39px;
-  height: 1px;
-  margin-left: 20px;
-  background-color: var(--base-color);
-}
-.section-title{
-  font-family: sans-serif;
-  color: var(--lightest-slate);
-  font-size: 45px;
-  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
 
-@media only screen and (max-width: 600px){
-  .App{
-    flex-direction: column;
-    padding: 40px 24px;
+.App-link {
+  color: #61dafb;
+}
 
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
   }
-  #content{
-    padding: 10px 10px;
-    width: 100%;
-
-  }
-  .section-header{
-    width: unset;
-
-  }
-  .section-header::after{
-    display: none;
-  }
-  .section-title{
-    font-size: 32px;
+  to {
+    transform: rotate(360deg);
   }
 }
+
+
+

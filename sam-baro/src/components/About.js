@@ -55,7 +55,7 @@ class About extends React.Component{
             <div id = "about">
                 <FadeInsection>
                     <div className = "section-header">
-                        <span className = "section-title">/ about me </span>
+                        <span className = "section-title">about me </span>
                     </div>
                     <div className = "about-content">
                         <div className = "about-description">
