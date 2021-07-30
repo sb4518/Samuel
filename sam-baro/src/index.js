@@ -4,11 +4,17 @@ import './index.css';
 import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import reportWebVitals from './reportWebVitals';
+import * as serviceWorker from "./serviceWorker";
 
-var element = React.createElement('h1', {className: 'greeting'}, 'Hello world!');
-ReactDOM.render(element,document.getElementById('root'));
+import {BrowserRouter} from "react-router-dom";
+ReactDOM.render(
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>, 
+  document.getElementById("root")
+)
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+serviceWorker.unregister();

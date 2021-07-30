@@ -28,13 +28,13 @@ class About extends React.Component{
         );
         const two = (
             <p>
-
+                <b> needs to be updated</b>
             </p>
         );
 
         const three = (
             <p>
-
+                <b> write something here</b>
             </p>
         );
         //add in descending order 
@@ -49,13 +49,13 @@ class About extends React.Component{
             "C",
             "React.js"
         ];
-        
+        //Add image here 
 
         return(
             <div id = "about">
                 <FadeInsection>
                     <div className = "section-header">
-                        <span className = "section-title"> aboout me </span>
+                        <span className = "section-title">/ about me </span>
                     </div>
                     <div className = "about-content">
                         <div className = "about-description">
