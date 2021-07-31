@@ -35,7 +35,8 @@ class Intro extends React.Component {
           </span>
         </Typist>
         <FadeInSection>
-            <Typist startDelay={3500} avgTypingDelay={100} cursor={{ hideWhenDone: true }}>
+             <Typist startDelay={3500} avgTypingDelay={100}> 
+             {/* /*cursor={{ hideWhenDone: true }}> */}
                 <span className="intro-subtitle">
                     {"Always learning!"}
                 </span>
