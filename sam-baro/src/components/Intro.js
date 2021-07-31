@@ -8,6 +8,8 @@ import FadeInSection from "./FadeInSection";
 import { Avatar } from "@material-ui/core";
 import { mergeClasses } from "@material-ui/styles";
 
+//Change the intro subtitle
+//Fix the position of the email porition 
 class Intro extends React.Component {
   constructor() {
     super();
@@ -37,7 +39,7 @@ class Intro extends React.Component {
           </span>
         </Typist>
         <FadeInSection>
-          <div className="intro-subtitle">Creating, Innovating one step at a time.</div>
+          <div className="intro-subtitle">Creating, Innovating one step at a time.</div>  
           <div className="intro-desc">
           </div>
           <a
