@@ -9,6 +9,11 @@ import "../styles/SidebarNav.css";
 import "react-typist/dist/Typist.css";
 import FadeInSection from "./FadeInSection";
 
+/*To open a new tab after clicking a link: 
+add target ="_blank" rel="noreferrer noopener" 
+After the reference link 
+*/
+
 const isMobile = window.innerWidth < 600;
 
 class SidebarNav extends React.Component {
@@ -60,10 +65,10 @@ class SidebarNav extends React.Component {
           <a href="mailto:sb4518@rit.edu">
             <EmailIcon style={{ fontSize: 20 }}></EmailIcon>
           </a>
-          <a href="https://github.com/sb4518">
+          <a href="https://github.com/sb4518" target ="_blank" rel="noreferrer noopener">
             <GitHubIcon style={{ fontSize: 19 }}></GitHubIcon>
           </a>
-          <a href="https://www.linkedin.com/in/samuelbaro/">
+          <a href="https://www.linkedin.com/in/samuelbaro/" target ="_blank" rel="noreferrer noopener">
             <LinkedInIcon style={{ fontSize: 21 }}></LinkedInIcon>
           </a>
         </div>

@@ -78,7 +78,7 @@ class Certification extends React.Component {
                       ></DescriptionRoundedIcon>
                     </div>
                     <span className="external-links">
-                      <a className="pdf-icon" href={certification[key]["link"]}>
+                      <a className="pdf-icon" target="_blank" rel="noopener noreferrer" href={certification[key]["link"]}>
                         <PictureAsPdfIcon
                           style={{
                             fontSize: 20,
@@ -87,7 +87,7 @@ class Certification extends React.Component {
                         ></PictureAsPdfIcon>
                       </a>
                       {certification[key]["open"] && (
-                        <a className="open-icon" href={certification[key]["open"]}>
+                        <a className="open-icon" target="_blank" rel="noopener noreferrer" href={certification[key]["open"]}>
                           <LinkedInIcon
                             style={{
                               fontSize: 25,

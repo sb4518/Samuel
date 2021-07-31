@@ -69,9 +69,10 @@
   /*Changes the description of the experiences text ONLY */
   .job-description li {
     position: relative;
+    padding-top: -10px;
     padding-left: 30px;
-    padding-bottom: 15px;
-    font-size: 16px;
+    padding-bottom: 10px;
+    font-size: 15px;
     color: var(--lightest-slate);
   }
   
@@ -80,7 +81,7 @@
     padding-top: 24px;
     max-width: 650px;
     font-family: "NTR", sans-serif;
-    font-size: 20px;
+    font-size: 18px;
   }
   
   .job-description a,

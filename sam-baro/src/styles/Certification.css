@@ -42,15 +42,9 @@
     border-bottom: none !important;
   }
   .folder-icon {
-    color: var(--green-bright); /*need to fix*/
+    color: #FF4C29; /*fixed*/
   }
-  
-  .github-icon {
-    margin-top: 6px;
-  }
-  .github-icon:hover {
-    color: var(--green-bright); /*need to fix*/
-  }
+  /*Need to add the functionality of pdf and linkedIn icon*/
   
   .open-icon {
     margin-left: 10px;
