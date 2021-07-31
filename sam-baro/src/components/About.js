@@ -34,15 +34,15 @@ class About extends React.Component {
         <b>frontend development</b>. Insert more information here 
       </p>
     );
-    const three = (
-      <p>
-        <b>Want to chat?</b> Shoot me a message at{" "}
-        <a href="mailto:sb4518@rit.edu">
-          sb4518@rit.edu
-        </a>{" "}
-        and let's have a chat
-      </p>
-    );
+    // const three = (
+    //   <p>
+    //     <b>Want to chat?</b> Shoot me a message at{" "}
+    //     <a href="mailto:sb4518@rit.edu">
+    //       sb4518@rit.edu
+    //     </a>{" "}
+    //     and let's have a chat
+    //   </p>
+    // );
     const desc_items = [one, two];
 
     const tech_stack = [
@@ -54,7 +54,7 @@ class About extends React.Component {
       "HTML & CSS"
     ];
 
-    const tech_items = tech_stack.map(stack => <li>{stack}</li>);
+    //const tech_items = tech_stack.map(stack => <li>{stack}</li>);
     //var imag = require("../components/picture/samuel.jpeg");
 
     return (
@@ -78,7 +78,7 @@ class About extends React.Component {
               </ul>
             </div>
             <div className="about-image">
-                <img src = {head} />
+                <img src = {head} alt= "Samuel.jpeg"/>
             </div>
           </div>
         </FadeInSection>

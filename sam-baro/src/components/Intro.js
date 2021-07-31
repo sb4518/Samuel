@@ -5,7 +5,7 @@ import Typist from "react-typist";
 import "react-typist/dist/Typist.css";
 import EmailIcon from '@material-ui/icons/Email';
 import FadeInSection from "./FadeInSection";
-import { Avatar } from "@material-ui/core";
+//import { Avatar } from "@material-ui/core";
 
 //Change the intro subtitle
 //Fix the position of the email porition 
