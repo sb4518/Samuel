@@ -13,6 +13,7 @@
     background-color: transparent !important;
   }
   
+  /** Changes the side bar informations */
   .sidebar-links {
     display: flex;
     flex-direction: column;
@@ -20,14 +21,14 @@
     font-family: "NTR", sans-serif;
     letter-spacing: 0em;
     line-height: 1.6em;
-    font-size: 16px;
+    font-size: 18px;
     padding: 0.2em;
     font-weight: bold;
   }
   
   a {
     text-decoration: none !important;
-    color: #CD5C5C !important;
+    color: #FF4C29 !important;
   }
   
   a:hover {
@@ -35,7 +36,7 @@
   }
   
   .sidebar-logos {
-    padding-top: 42px;
+    padding-top: 30px;
     width: 70px;
     display: flex;
     flex-direction: row;
@@ -61,7 +62,7 @@
     }
   
     .sidebar-logos {
-      padding-top: 0px;
+      padding-top: 5px;
       width: 100px;
       display: flex;
       flex-direction: row;

@@ -27,10 +27,7 @@ class Intro extends React.Component {
   render() {
     return (
       <div id="intro">
-        <div className="sam-picture">
-          <Avatar>SB</Avatar>
-        </div>
-        <Typist avgTypingDelay={180}>
+        <Typist avgTypingDelay={120} cursor={{ hideWhenDone: true }}>
           <span className="intro-title">
             {"Hi, "}
             <span className="intro-name">{"Samuel"}</span>
@@ -38,15 +35,21 @@ class Intro extends React.Component {
           </span>
         </Typist>
         <FadeInSection>
-          <div className="intro-subtitle">Creating, Innovating one step at a time.</div>  
+            <Typist startDelay={3500} avgTypingDelay={100} cursor={{ hideWhenDone: true }}>
+                <span className="intro-subtitle">
+                    {"Always learning!"}
+                </span>
+            </Typist>
+          {/* <div className="intro-subtitle">Creating, Innovating one step at a time.</div>   */}
           <div className="intro-desc">
+               Chu Papi Chu Papi. 
           </div>
           <a
             href="mailto:sb4518@rit.edu"
             className="intro-contact"
           >
             <EmailIcon></EmailIcon>
-            {"  Say hello"}
+            {"  Let's Chat!"}
           </a>
         </FadeInSection>
       </div>

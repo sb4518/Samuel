@@ -91,7 +91,7 @@ const JobList = () => {
         "Insert description"   
       ]
     },
-    "Selective Corporate Internship Program": {
+    "SCIP": {
       jobTitle: "Web Developer Intern @",
       duration: "JUL 2019 - SEPT 2019",
       desc: [

@@ -21,7 +21,6 @@ function App() {
         <About></About>
         <Experience></Experience>
         <Certification></Certification>
-        
         </div>
         <SidebarNav />
         </div>

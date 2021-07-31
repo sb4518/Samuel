@@ -15,13 +15,15 @@
     position: relative;
     padding-left: 20px;
     font-size: 18px;
-    color: var(--slate);
+    color: var(--lightest-slate);
+    padding-bottom: 10px;
   }
   
   .about-description li::before {
     content: "◆   ";
-    color: var(--green-bright);
+    color: #FF4C29; /* need to fix*/
     position: absolute;
+
     padding-bottom: 5px;
     left: 0;
   }
@@ -55,7 +57,7 @@
     height: auto;
     border-radius: 5px;
     box-shadow: 6px 13px 23px -5px rgba(0, 0, 0, 0.46);
-    border: 2px solid var(--green-bright);
+    border: 2px solid #FF4C29; /*need to fix*/
   }
   
   @media only screen and (max-width: 788px) {
