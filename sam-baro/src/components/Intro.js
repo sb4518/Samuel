@@ -5,6 +5,8 @@ import Typist from "react-typist";
 import "react-typist/dist/Typist.css";
 import EmailIcon from '@material-ui/icons/Email';
 import FadeInSection from "./FadeInSection";
+import { Avatar } from "@material-ui/core";
+import { mergeClasses } from "@material-ui/styles";
 
 class Intro extends React.Component {
   constructor() {
@@ -24,20 +26,19 @@ class Intro extends React.Component {
   render() {
     return (
       <div id="intro">
-        <div id="sam-picture">
-          {/* Insert picture here  */}
+        <div className="sam-picture">
+          <Avatar>SB</Avatar>
         </div>
         <Typist avgTypingDelay={180}>
           <span className="intro-title">
-            {"hi, "}
+            {"Hi, "}
             <span className="intro-name">{"Samuel"}</span>
             {" here."}
           </span>
         </Typist>
         <FadeInSection>
-          <div className="intro-subtitle">Chu Papi.</div>
+          <div className="intro-subtitle">Creating, Innovating one step at a time.</div>
           <div className="intro-desc">
-            Insert intro here 
           </div>
           <a
             href="mailto:sb4518@rit.edu"

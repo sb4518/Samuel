@@ -1,91 +1,85 @@
 import React from "react";
-import FadeInsection from "./FadeInSection"; 
+import "../styles/About.css";
+import FadeInSection from "./FadeInSection";
 
-class About extends React.Component{
-    constructor(){
-        super(); 
-        this.state = {
-            expanded: true, 
-            activeKey: "1"
+class About extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      expanded: true,
+      activeKey: "1"
+    };
+    this.handleSelect = this.handleSelect.bind(this);
+  }
+  handleSelect(eventKey) {
+    this.setState({
+      activeKey: eventKey
+    });
+  }
+  render() {
+    const one = (
+      <p>
+        I am currently studying <b>Computational Mathematics</b> at{" "}
+        <b> Rochester Insititute Of Technology </b>, with a minor in <b>Computer Science</b>
+        I am also currently interning at {" "}
+        <a href="https://www.tbn24.com">TBN24</a> as an{" "}
+        <b>Software Engineer</b>.
+      </p>
+    );
+    const two = (
+      <p>
+        I'm into <b>Full-Stack Development</b>, <b>Product Manager</b> and{" "}
+        <b>frontend development</b>. Insert more information here 
+      </p>
+    );
+    const three = (
+      <p>
+        <b>Want to chat?</b> Shoot me a message at{" "}
+        <a href="mailto:sb4518@rit.edu">
+          sb4518@rit.edu
+        </a>{" "}
+        and let's have a chat
+      </p>
+    );
+    const desc_items = [one, two];
 
-        };
-        this.handleSelect = this.handleSelect.bind(this);
+    const tech_stack = [
+      "Javascript ES6+",
+      "Python",
+      "React.js",
+      "Java",
+      "Node.js",
+      "HTML & CSS"
+    ];
 
-    }
-    handleSelect(evenKey){
-        this.setState({
-            activeKey: evenKey
-        });
+    const tech_items = tech_stack.map(stack => <li>{stack}</li>);
+    //var image = require("./assets/me.jpg");
 
-    }
-    render() {
-        const one = (
-            <p>
-                I am currently studying <b> Computational Mathematics</b> at {" "}
-                <b> Rochester Institute Of Technology</b>, with a minor in Computer Science. 
-                
-            </p>
-        );
-        const two = (
-            <p>
-                <b> needs to be updated</b>
-            </p>
-        );
-
-        const three = (
-            <p>
-                <b> write something here</b>
-            </p>
-        );
-        //add in descending order 
-        const desc_items = [one,two];
-    
-        //Add constant coding languages 
-        // [];
-        const coding_language = [
-            "Python",
-            "Java", 
-            "C++",
-            "C",
-            "React.js"
-        ];
-        //Add image here 
-
-        return(
-            <div id = "about">
-                <FadeInsection>
-                    <div className = "section-header">
-                        <span className = "section-title">about me </span>
-                    </div>
-                    <div className = "about-content">
-                        <div className = "about-description">
-                            {desc_items}
-                            {"Some coding languages I have been working with as of now:"}
-                            <ul className = "coding_language">
-                                {coding_language.map(function (items, i) {
-                                    return(
-                                        <FadeInsection delay = {`${i+1}00ms`}>
-                                            <li>{coding_language}</li>
-                                        </FadeInsection>
-                                    ); 
-                                })}
-                            </ul>
-                        </div>
-                        
-                    </div>
-                </FadeInsection>
+    return (
+      <div id="about">
+        <FadeInSection>
+          <div className="section-header ">
+            <span className="section-title"> About Me</span>
+          </div>
+          <div className="about-content">
+            <div className="about-description">
+              {desc_items}
+              {"Here are some technologies I have been working with:"}
+              <ul className="tech-stack">
+                {tech_stack.map(function (tech_item, i) {
+                  return (
+                    <FadeInSection delay={`${i + 1}00ms`}>
+                      <li>{tech_item}</li>
+                    </FadeInSection>
+                  );
+                })}
+              </ul>
             </div>
-        );
-    
-    
-    }
-
-
-
-    //
+          </div>
+        </FadeInSection>
+      </div>
+    );
+  }
 }
 
-
-
-
-export default About; 
+export default About;

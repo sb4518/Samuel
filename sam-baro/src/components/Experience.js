@@ -24,7 +24,7 @@ class Experience extends React.Component{
             <div id = "experience">
                 <FadeInSection>
                     <div className = "section-header ">
-                        <span className = "section-title"> experience</span>
+                        <span className = "section-title"> Experience</span>
 
                     </div>
                     <JobList></JobList>

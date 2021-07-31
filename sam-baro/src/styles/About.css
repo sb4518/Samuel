@@ -1,6 +1,5 @@
 #about {
     padding-left: 15%;
-    padding-top: 5%;
     padding-right: 25%;
   }
   
@@ -31,7 +30,7 @@
   }
   
   .about-description {
-    font-family: "NTR", sans-serif;
+    font-family: sans-serif;
     color: var(--slate);
     max-width: 700px;
     font-size: 20px;
@@ -44,7 +43,7 @@
     font-weight: bold;
   }
   
-  /* .about-image {
+  .about-image {
     padding-left: 40px;
   }
   
@@ -79,6 +78,6 @@
   
     .about-content {
       display: unset;
-    } */
+    }
   
-  
+}

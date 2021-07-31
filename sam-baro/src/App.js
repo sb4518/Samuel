@@ -7,6 +7,7 @@ import SidebarNav from "./components/SidebarNav"
 import "./App.css";
 import "./styles/Global.css";
 import "rsuite/dist/styles/rsuite-default.css";
+import Projects from "./components/Projects";
 
 //import SidebarNav from "./components/SidebarNav";
 
@@ -18,6 +19,7 @@ function App() {
         <Intro></Intro>
         <About></About>
         <Experience></Experience>
+        
         </div>
         <SidebarNav />
         </div>

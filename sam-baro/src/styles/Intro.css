@@ -6,13 +6,19 @@
     padding-top: 5%;
     min-height: 100vh;
   }
+  .sam-picture{
+    display: flex;
+    width: 200px;
+    padding: 10px 20px;
+
+  }
   
   canvas {
     width: 200px !important;
   }
   
   .Typist {
-    color: #7a7676;
+    color: var(--lightest-slate);
     text-align: center;
     font-size: 76px;
     margin-top: -30px;
@@ -77,6 +83,9 @@
       margin: 0;
       align-items: center;
     }
+    #sam-picture{
+      
+    }
   
     .intro-title {
       font-size: 46px;
@@ -104,7 +113,7 @@
   
     .intro-contact {
       font-size: 16px;
-      align-self: center;
+      align-self: left;
       margin-left: 30%;
     }
   }
