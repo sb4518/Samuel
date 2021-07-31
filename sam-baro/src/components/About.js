@@ -1,5 +1,7 @@
+import { requirePropFactory } from "@material-ui/core";
 import React from "react";
 import "../styles/About.css";
+
 import FadeInSection from "./FadeInSection";
 
 class About extends React.Component {
@@ -44,16 +46,16 @@ class About extends React.Component {
     const desc_items = [one, two];
 
     const tech_stack = [
-      "Javascript ES6+",
       "Python",
-      "React.js",
       "Java",
-      "Node.js",
+      "C++",
+      "C",
+      "React.js",
       "HTML & CSS"
     ];
 
     const tech_items = tech_stack.map(stack => <li>{stack}</li>);
-    //var image = require("./assets/me.jpg");
+    //var img = require("/Users/samuel/Documents/GitHub/Samuel/sam-baro/src/components/picture/samuel.jpeg");
 
     return (
       <div id="about">
@@ -74,6 +76,9 @@ class About extends React.Component {
                   );
                 })}
               </ul>
+            </div>
+            <div className="about-image">
+                <img src ={require("/Users/samuel/Documents/GitHub/Samuel/sam-baro/src/components/picture/samuel.jpeg")}alt="description of image"></img>
             </div>
           </div>
         </FadeInSection>

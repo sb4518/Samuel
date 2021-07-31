@@ -60,7 +60,7 @@
   }
   
   .job-description li::before {
-    content: "▹    ";
+    content: "◆    ";
     color: var(--green-bright);
     position: absolute;
     left: 0;
