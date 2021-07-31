@@ -1,10 +1,11 @@
 #about {
     padding-left: 15%;
+    padding-top: 5%;
     padding-right: 25%;
   }
   
   .about-description ul {
-    padding-top: 100px;
+    padding-top: 20px;
     list-style-type: none;
     display: grid;
     grid-template-columns: repeat(2, minmax(150px, 10px));
@@ -25,15 +26,16 @@
     left: 0;
   }
   
+  /*About content*/
   .about-content {
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
   }
   
   .about-description {
-    font-family: sans-serif;
-    color: var(--slate);
-    max-width: 700px;
+    font-family: "NTR", sans-serif;
+    color: var(--lightest-slate);
+    max-width: 800px;
     font-size: 20px;
     margin: 0;
   }
@@ -51,7 +53,7 @@
   .about-image img {
     max-width: 400px;
     height: auto;
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: 6px 13px 23px -5px rgba(0, 0, 0, 0.46);
     border: 2px solid var(--green-bright);
   }

@@ -1,6 +1,6 @@
-import { requirePropFactory } from "@material-ui/core";
 import React from "react";
 import "../styles/About.css";
+import head from "../picture/samuel.jpeg";
 
 import FadeInSection from "./FadeInSection";
 
@@ -21,11 +21,11 @@ class About extends React.Component {
   render() {
     const one = (
       <p>
-        I am currently studying <b>Computational Mathematics</b> at{" "}
-        <b> Rochester Insititute Of Technology </b>, with a minor in <b>Computer Science</b>
-        I am also currently interning at {" "}
-        <a href="https://www.tbn24.com">TBN24</a> as an{" "}
-        <b>Software Engineer</b>.
+    I am currently studying <b>Computational Mathematics</b> at{" "}
+    <b> Rochester Insititute Of Technology,</b> with a minor in <b>Computer Science. </b>
+     I am also currently interning at {" "}
+    <a href="https://www.tbn24.com">TBN24</a> as an{" "}
+    <b>Software Engineer</b>.
       </p>
     );
     const two = (
@@ -55,7 +55,7 @@ class About extends React.Component {
     ];
 
     const tech_items = tech_stack.map(stack => <li>{stack}</li>);
-    //var img = require("/Users/samuel/Documents/GitHub/Samuel/sam-baro/src/components/picture/samuel.jpeg");
+    //var imag = require("../components/picture/samuel.jpeg");
 
     return (
       <div id="about">
@@ -78,7 +78,7 @@ class About extends React.Component {
               </ul>
             </div>
             <div className="about-image">
-                <img src ={require("/Users/samuel/Documents/GitHub/Samuel/sam-baro/src/components/picture/samuel.jpeg")}alt="description of image"></img>
+                <img src = {head} />
             </div>
           </div>
         </FadeInSection>

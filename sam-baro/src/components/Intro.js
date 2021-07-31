@@ -6,7 +6,6 @@ import "react-typist/dist/Typist.css";
 import EmailIcon from '@material-ui/icons/Email';
 import FadeInSection from "./FadeInSection";
 import { Avatar } from "@material-ui/core";
-import { mergeClasses } from "@material-ui/styles";
 
 //Change the intro subtitle
 //Fix the position of the email porition 
@@ -47,7 +46,7 @@ class Intro extends React.Component {
             className="intro-contact"
           >
             <EmailIcon></EmailIcon>
-            {"  " + "Say hello"}
+            {"  Say hello"}
           </a>
         </FadeInSection>
       </div>
