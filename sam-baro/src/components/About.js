@@ -1,7 +1,6 @@
 import React from "react";
 import "../styles/About.css";
 import head from "../picture/samuel.jpeg";
-
 import FadeInSection from "./FadeInSection";
 
 class About extends React.Component {
@@ -21,10 +20,10 @@ class About extends React.Component {
   render() {
     const one = (
       <p>
-    I am currently studying <b>Computational Mathematics</b> at{" "}
+    I am currently a senior studying <b>Computational Mathematics</b> at{" "}
     <b> Rochester Insititute Of Technology,</b> with a minor in <b>Computer Science. </b>
      I am also currently interning at {" "}
-    <a href="https://www.tbn24.com">TBN24</a> as an{" "}
+    <a href="https://www.tbn24.com">TBN24</a> as a{" "}
     <b>Software Engineer</b>.
       </p>
     );
