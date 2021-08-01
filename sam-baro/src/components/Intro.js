@@ -1,11 +1,13 @@
 import React from "react";
-import ReactRoundedImage from "react-rounded-image";
 import "../styles/Intro.css";
 import Typist from "react-typist";
 import "react-typist/dist/Typist.css";
 import EmailIcon from '@material-ui/icons/Email';
 import FadeInSection from "./FadeInSection";
-import pic from "../picture/emoji.png";
+
+//import ReactRoundedImage from "react-rounded-image";
+//import pic from "../picture/emoji.png";
+import RoundedImage from "./RoundImage";
 
 //import { Avatar } from "@material-ui/core";
 
@@ -29,10 +31,11 @@ class Intro extends React.Component {
   render() {
     return (
       <div id="intro">
-          <div style={{display:"flex"}}>
-          <ReactRoundedImage image={pic} roundedSize="10" imageWidth="150" imageHeight="150" />
-      </div>
-    );
+          <div id="sam-emoji">
+          <RoundedImage></RoundedImage>
+        </div>
+        );
+          
         <Typist avgTypingDelay={120} cursor={{ hideWhenDone: true }}>
           <span className="intro-title">
             {"Hi, "}
@@ -49,7 +52,7 @@ class Intro extends React.Component {
             </Typist>
           {/* <div className="intro-subtitle">Creating, Innovating one step at a time.</div>   */}
           <div className="intro-desc">
-               Chu Papi Chu Papi. 
+               
           </div>
           <a
             href="mailto:sb4518@rit.edu"

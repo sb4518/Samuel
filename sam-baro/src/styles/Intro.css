@@ -6,12 +6,7 @@
     padding-top: 5%;
     min-height: 95vh;
   }
-  .sam-picture{
-    display: flex;
-    width: 200px;
-    padding: 10px 20px;
 
-  }
   
   canvas {
     width: 200px !important;
