@@ -52,7 +52,7 @@ class Intro extends React.Component {
             </Typist>
           {/* <div className="intro-subtitle">Creating, Innovating one step at a time.</div>   */}
           <div className="intro-desc">
-               
+               Add something here. 
           </div>
           <a
             href="mailto:sb4518@rit.edu"

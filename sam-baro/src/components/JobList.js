@@ -84,7 +84,7 @@ const JobList = () => {
   const experienceItems = {
     TBN24: {
       jobTitle: "Software Engineer Intern @",
-      duration: "June 2021 - August 2021",
+      duration: "JUN 2021 - AUG 2021",
       desc: [
         "Insert description",
         "Insert description",
