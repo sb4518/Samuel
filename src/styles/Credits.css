@@ -1,11 +1,12 @@
-#credits{
+#credit{
     display: flex;
     align-items: center;
-    padding-top: 100px;
+    padding-top: 80px;
+    padding-bottom: 30px;
 }
 .end-credits{
-    font-family: "NTR", sans-serif;
-    color: var(--light-slate);
+    font-family: sans-serif;
+    color: var(--slate);
     text-align: center;
     width: 100%;
     font-size: 15px;
