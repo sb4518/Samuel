@@ -86,9 +86,9 @@ const JobList = () => {
       jobTitle: "Software Engineer Intern @",
       duration: "JUN 2021 - AUG 2021",
       desc: [
-        "Insert description",
-        "Insert description",
-        "Insert description"   
+        "Building internal media archiving and catalog tools using React and Python.",
+        "Using cloud services to migrate existing data from local servers to cloud.",
+        "Working on compression alogrithm to save media space."   
       ]
     },
     "SCIP": {

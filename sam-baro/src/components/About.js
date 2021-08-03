@@ -30,8 +30,9 @@ class About extends React.Component {
     const two = (
       <p>
         I'm into <b>Full-Stack Development</b>, <b>Product Manager</b> and{" "}
-        <b>frontend development</b>. Insert more information here 
+        <b>Frontend Development</b>.
       </p>
+      /* Insert more information */
     );
     // const three = (
     //   <p>
