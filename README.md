@@ -6,13 +6,16 @@ Inspired By: Gazi Jarin (github.com/gazijarin).
 1. npx create-react-app sam-baro
 2. npm install
 3. npm install @material-ui/core
-4. npm install --save react-rounded-image (for the bitmoji image in the intro)
+4. npm install --save react-rounded-image (ref: https://www.npmjs.com/package/react-rounded-image)
+
+
+
 
 
 ## To Start Development server: 
 1. npm start
 
-### Deployment
+## Deployment
 1. npm run build
 2. npm run deploy (optional)
 
