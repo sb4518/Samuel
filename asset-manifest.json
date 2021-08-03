@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Samuel/static/css/main.a776fec7.chunk.css",
+    "main.js": "/Samuel/static/js/main.173f2f2a.chunk.js",
+    "main.js.map": "/Samuel/static/js/main.173f2f2a.chunk.js.map",
+    "runtime-main.js": "/Samuel/static/js/runtime-main.82499e23.js",
+    "runtime-main.js.map": "/Samuel/static/js/runtime-main.82499e23.js.map",
+    "static/css/2.6c6bdc46.chunk.css": "/Samuel/static/css/2.6c6bdc46.chunk.css",
+    "static/js/2.77ca07f9.chunk.js": "/Samuel/static/js/2.77ca07f9.chunk.js",
+    "static/js/2.77ca07f9.chunk.js.map": "/Samuel/static/js/2.77ca07f9.chunk.js.map",
+    "index.html": "/Samuel/index.html",
+    "static/css/2.6c6bdc46.chunk.css.map": "/Samuel/static/css/2.6c6bdc46.chunk.css.map",
+    "static/css/main.a776fec7.chunk.css.map": "/Samuel/static/css/main.a776fec7.chunk.css.map",
+    "static/js/2.77ca07f9.chunk.js.LICENSE.txt": "/Samuel/static/js/2.77ca07f9.chunk.js.LICENSE.txt",
+    "static/media/emoji.2b45e7ef.png": "/Samuel/static/media/emoji.2b45e7ef.png",
+    "static/media/samuel.39817234.jpeg": "/Samuel/static/media/samuel.39817234.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.82499e23.js",
+    "static/css/2.6c6bdc46.chunk.css",
+    "static/js/2.77ca07f9.chunk.js",
+    "static/css/main.a776fec7.chunk.css",
+    "static/js/main.173f2f2a.chunk.js"
+  ]
+}
