@@ -3,9 +3,9 @@ import About from "./components/About";
 import Experience from "./components/Experience"
 import Intro from "./components/Intro"
 import Projects from "./components/Projects";
-import Certification from "./components/Certification"
-//import Project from "./components/Project"
-import SidebarNav from "./components/SidebarNav"
+import Certification from "./components/Certification";
+import Credits from "./components/Credits";
+import SidebarNav from "./components/SidebarNav";
 import "./App.css";
 import "./styles/Global.css";
 import "rsuite/dist/styles/rsuite-default.css";
@@ -23,6 +23,7 @@ function App() {
         <Experience></Experience>
         <Projects></Projects>
         <Certification></Certification>
+        <Credits></Credits>
         </div>
         <SidebarNav />
         </div>
