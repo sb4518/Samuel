@@ -1,5 +1,5 @@
 ## Description: 
-Built my first website using ReactJS in VSCode, Material UI.
+Built my first website using ReactJS in VSCode, Material UI.<br />
 Inspired By: Gazi Jarin (github.com/gazijarin).
 
 ## Package Installation: 
@@ -17,8 +17,8 @@ Inspired By: Gazi Jarin (github.com/gazijarin).
 2. npm run deploy (optional)
 
 ## Color Used: 
-background-color: #082032 | `#082032`
-border-color: #FF4C29 | `#FF4C2`
+background-color: #082032 | `#082032` <br />
+border-color: #FF4C29 | `#FF4C2`<br />
 text-color: #ccd6f6 | `#ccd6f6`
             #a8b2d1 | `#a8b2d1`
             #8892b0 | `#8892b0`
