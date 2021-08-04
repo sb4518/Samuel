@@ -1,4 +1,34 @@
-# Getting Started with Create React App
+## Description: 
+Built my first website using ReactJS in VSCode, Material UI.<br />
+Inspired By: Gazi Jarin (github.com/gazijarin).
+
+## Package Installation: 
+1. npx create-react-app sam-baro
+2. npm install
+3. npm install @material-ui/core
+4. npm install --save react-rounded-image (ref: https://www.npmjs.com/package/react-rounded-image)
+
+
+
+
+
+## To Start Development server: 
+1. npm start
+
+## Deployment
+1. npm run build
+2. npm run deploy (optional)
+
+## Color Used: 
+background-color: #082032 | `#082032` <br />
+border-color: #FF4C29 | `#FF4C2`<br />
+text-color: #ccd6f6 | `#ccd6f6`
+            #a8b2d1 | `#a8b2d1`
+            #8892b0 | `#8892b0`
+
+
+
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -33,9 +63,9 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project. -->
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<!-- Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
@@ -68,3 +98,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ -->
