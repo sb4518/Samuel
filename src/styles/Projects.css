@@ -24,13 +24,13 @@
     position: relative;
     height: 100%;
     padding: 2rem 1.75rem;
-    background-color: var(--light-navy);
+    background-color: #092e4e;
     border-radius: 16px;
   }
   
   .project-card:hover {
     transform: translateY(-7px);
-    background-color: var(--lightest-navy);
+    background-color: #0c365c;
   }
   
   .card-header {

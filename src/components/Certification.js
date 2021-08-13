@@ -35,13 +35,6 @@ class Certification extends React.Component {
         link: "https://drive.google.com/file/d/1WUtQJJMskDkaHXAPTS5Jp_lc_ZMcMneO/view?usp=sharing",
         open: "https://www.linkedin.com/in/samuelbaro/"
       },
-      "UX Research for Agile Teams": {
-        desc:
-          "How to optimize your research efforts for your particular project and synthesize feedback into the team process",
-        techStack: "Date Completed: Soon",
-        link: " ",
-        open: "https://www.linkedin.com/in/samuelbaro/"
-      },
       "Lean Six Sigma Foundation": {
         desc:
           "How to optimize your research efforts for your particular project and synthesize feedback into the team process",
@@ -49,11 +42,18 @@ class Certification extends React.Component {
         link: " ",
         open: "https://www.linkedin.com/in/samuelbaro/"
       },
+      "UX Research for Agile Teams": {
+        desc:
+          "How to optimize your research efforts for your particular project and synthesize feedback into the team process",
+        techStack: "Date Completed: Aug 4, 2021",
+        link: "https://drive.google.com/file/d/17u-UjRQNeOFljufj3hpGTnBf0tkelTnX/view?usp=sharing",
+        open: "https://www.linkedin.com/in/samuelbaro/"
+      },
       "Business Analytics Foundations: Descriptive, Exploratory, and Explanatory Analytics": {
         desc:
           "How to optimize your research efforts for your particular project and synthesize feedback into the team process",
-        techStack: "Date Completed: Soon",
-        link: " ",
+        techStack: "Date Completed: Aug 12, 2021",
+        link: "https://drive.google.com/file/d/1JGwe8Zg00h_KzlRURRm9ktZDGNASaty5/view?usp=sharing",
         open: "https://www.linkedin.com/in/samuelbaro/"
       }
       
