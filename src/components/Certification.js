@@ -21,13 +21,13 @@ class Certification extends React.Component {
   }
   render() {
     const certification = {
-        "AWS Cloud Practioner Certification": {
-            desc:
-              "How to optimize your research efforts for your particular project and synthesize feedback into the team process",
-            techStack: "Date Completed: Soon",
-            link: " ",
-            open: "https://www.linkedin.com/in/samuelbaro/"
-          },
+        // "AWS Cloud Practioner Certification": {
+        //     desc:
+        //       "How to optimize your research efforts for your particular project and synthesize feedback into the team process",
+        //     techStack: "Date Completed: Soon",
+        //     link: " ",
+        //     open: "https://www.linkedin.com/in/samuelbaro/"
+        //   },
       "Software Development Life Cycle (SDLC)": {
         desc:
           "Life cycle ",
@@ -81,7 +81,7 @@ class Certification extends React.Component {
                       <a className="pdf-icon" target="_blank" rel="noopener noreferrer" href={certification[key]["link"]}>
                         <PictureAsPdfIcon
                           style={{
-                            fontSize: 20,
+                            fontSize: 25,
                             color: "var(--lightest-slate)"
                           }}
                         ></PictureAsPdfIcon>

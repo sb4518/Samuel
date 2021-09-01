@@ -36,7 +36,7 @@ class Intro extends React.Component {
         </div>
         );
           
-        <Typist avgTypingDelay={120} cursor={{ hideWhenDone: true }}>
+        <Typist avgTypingDelay={180} cursor={{ hideWhenDone: true }}>
           <span className="intro-title">
             {"Hi, "}
             <span className="intro-name">{"Samuel"}</span>
@@ -44,12 +44,11 @@ class Intro extends React.Component {
           </span>
         </Typist>
         <FadeInSection>
-             <Typist startDelay={3500} avgTypingDelay={100}> 
              {/* /*cursor={{ hideWhenDone: true }}> */}
                 <span className="intro-subtitle">
                     {"Always learning!"}
                 </span>
-            </Typist>
+           
           {/* <div className="intro-subtitle">Creating, Innovating one step at a time.</div>   */}
           <div className="intro-desc">
             

@@ -28,6 +28,13 @@ class Projects extends React.Component {
             techStack: "C++",
             link: "https://github.com/sb4518/black_jack",
             open:""
+      }, 
+      "samuelbaro":{
+        desc:
+          "Personal website using React",
+        techStack: "React, JavaScript",
+        link: "https://github.com/sb4518/Samuel", 
+        open: "samuelbaro.com"
       }
       
 
@@ -63,7 +70,7 @@ class Projects extends React.Component {
                         <a className="open-icon" target="_blank" rel="noopener noreferrer" href={project[key]["open"]}>
                           <OpenInNewIcon
                             style={{
-                              fontSize: 20,
+                              fontSize: 25,
                               color: "var(--lightest-slate)"
                             }}
                           ></OpenInNewIcon>
